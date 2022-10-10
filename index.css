@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+
+/* Default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Philosopher", "sans-serif";
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    font-family: "Philosopher";
+    font-size: 50px;
+    /* line-height: 32px; */
+    color: white;
+    margin-top: 16px;
+    /* font-weight: normal; */
+}
+
+h2 {
+    font-family: "Times-New-Roman";
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.6cm;
+    color: white;
+}
+
+
+p {
+    font-family: "sans-serif";
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.6cm;
+    color: white;
+}
+
+button {
+    font-family: "sans-serif";
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.6cm;
+    color: black;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 0 15px;
+}
+/* Navigation Bar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    padding: 10px 50px;
+    background: transparent;
+    transition: all 0.5s ease;
+}
+
+.nav .menu-bar .menu-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .menu-bar .menu-item li{
+    margin: 0 15px;
+}
+
+.nav .menu-bar .menu-item li a{
+    color: white;
+    font-weight: normal;
+}
+
+.nav .menu-bar .menu-item li a:hover{
+    color: #AEB9F2;
+}
+
+
+/* Homepage */
+
+.hero-section {
+    background-image: url(homepage.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-section h1{
+    font-size: 40px;
+}
+
+.hero-section h2{
+    font-size: 40px;
+    color: white;
+}
+
+.hero-section #fan{
+    font-size: 40px;
+    position: 0% 0%;
+    font-family: "Philosopher";
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height: 1.6cm;
+    color: #AEB9F2;
+}
+
+.hero-section .container button{
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: white;
+    border: 0;
+    line-height: 30px;
+    width: 100px;
+}
+
+.hero-section .container button:hover{
+    background-color: #AEB9F2;
+}

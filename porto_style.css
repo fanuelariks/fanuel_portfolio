@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+
+/* Default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Philosopher", "sans-serif";
+    background-color: black;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    font-family: "Philosopher";
+    font-size: 50px;
+    /* line-height: 32px; */
+    color: white;
+    margin-top: 16px;
+    /* font-weight: normal; */
+}
+
+h2 {
+    font-family: "Times-New-Roman";
+    font-size: 30px;
+    /* margin-bottom: 20px; */
+    /* line-height: 1.6cm; */
+    color: white;
+    text-align: center; 
+}
+
+.fan {
+    font-family: "Philosopher";
+    font-size: 30px;
+    line-height: 1.6cm;
+    color: #AEB9F2;
+}
+
+p {
+    font-family: "sans-serif";
+    font-size: 20px;
+    line-height: 1cm;
+    color: white;
+    text-align: justify;
+    font-weight: normal; 
+}
+
+
+/* Navigation Bar */
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    padding: 10px 50px ;
+    background: transparent;
+    transition: all 0.5s ease;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item li{
+    margin: 0 15px;
+}
+
+.menu-item li a{
+    color: white;
+    font-weight: normal;
+}
+
+.menu-item li a:hover{
+    color: #AEB9F2;
+}
+
+/* Content Member */
+
+.headingContent {
+    padding: 0 0 70px;
+}
+
+.contentPorto h2{
+    font-size: 25px;
+}
+
+.listContent {
+    padding: 30px 0 30px 0px;
+    display: flex;
+    justify-content: space-around;
+}
